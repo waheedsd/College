@@ -1,0 +1,118 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>College</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        img{
+            
+          
+            float:right;
+            height:70%;
+            width:75%;
+        }
+        table{
+            padding-left: 45%;
+            padding-top: 10%;
+
+        }
+        td{
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+        a{
+            text-decoration: none;
+        }
+        .sidebar{
+            padding: 5%;
+        }
+       .bg{
+            background-image: url("college-home-page.png");
+
+            left: 20%;
+            background-position: center;
+            height:100%;
+            width:100%;
+
+        }
+       footer
+        {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body bgcolor="#f5f5dc">
+<header>
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="#">COLLEGE</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.jsp">Home</a> </li>
+        </ul>
+    </div>
+</nav>
+</header>
+<form >
+<img src="image/college-home-page.png">
+<div class="sidebar bg">
+
+    <table border ="0px">
+        <tr>
+            <td>
+                <div>
+                <a href="#" type="button" class= "btn btn-primary btn-lg btn-block" role="button">HOME</a>
+                </div>
+            </td>
+            <tr>
+            <td>
+                <div>
+                    <a href="about.html" type="button" class="btn btn-info btn-lg btn-block" role="button">About us</a>
+                </div>
+            </td>
+            </tr>
+        <tr>
+            <td>
+                <div>
+                    <a href="#" type="button" class="btn btn-primary btn-lg btn-block" role="button">Enquiry</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+        <td>
+            <div>
+                <a href="https://www.facebook.com/Dil-pe-mat-lee-yaar-No-hard-feelings-288762474475805/" type="button" class="btn btn-primary btn-block" role="button">FaceBook</a>
+            </div>
+        </td>
+        </tr>
+        <tr>
+            <td>
+        <div><a href="admin.jsp" type="button" class="btn btn-success btn-lg btn-block" role="button">Admin</a></div>
+            </td>
+            </tr>
+        <tr>
+            <td>
+                <div><a href="login.jsp" type="button" class="btn btn-success btn-lg btn-block" role="button">Student</a></div>
+            </td>
+        </tr>
+    </table>
+    </div>
+</form>
+<footer>
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+<div class="navbar-text pull-center">
+    <p style="text-align: center">Copyright &copy; COLLEGE.com  2017 All rights reserved</p>
+
+</div>
+    </div>
+    </div>
+</footer>
+</body>
+</html>
